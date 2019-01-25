@@ -1,0 +1,65 @@
+.background {
+  viewport-fill: black;
+}
+
+#trend {
+  font-size: 10;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 78%;
+  y: 33;
+  fill: white;
+}
+
+#battery-arc {
+  opacity: 0;
+}
+
+#batteryLabel {
+  font-size: 9;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 6%;
+  y: 11%;
+  fill: white;
+  opacity: 0;
+}
+
+#myLabel {
+  font-size: 45;
+  font-family: System-Bold;
+  text-length: 25;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%;
+  fill: white;
+}
+
+#dateLabel {
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 65%;
+  fill: white;
+}
+
+#lastReading {
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 45%;
+  y: 11%;
+  fill: white;
+}
+
+#testingLabel {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 85%;
+  fill: white;
+}

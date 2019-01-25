@@ -1,0 +1,15 @@
+<svg class="background" id="background" pointer-events="visible">
+  <arc id="battery-arc" x="4%" y="5%" arc-width="2" start-angle="0" sweep-angle="0" height="35" width="35" fill="green"/>
+  <arc id="reading-arc" x="85%" y="5%" arc-width="2" start-angle="0" sweep-angle="0" height="35" width="35" fill="blue"/>
+  <text id="trend" />
+  <text id="myLabel" />
+  <text id="dateLabel" />
+  <text id="lastReading" />
+  <text id="batteryLabel" />
+  <text id="testingLabel" />
+
+  <!-- USE KPAY UI CODE - ADD ALL OWN UI CODE ABOVE THIS LINE -->
+  <use href="#kpay" />
+</svg>
+
+

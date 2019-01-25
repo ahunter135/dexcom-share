@@ -1,0 +1,29 @@
+{
+  "fitbit": {
+    "appUUID": "7e5ed2b2-e2d4-4c51-ac2f-0dd3042c815e",
+    "appType": "clockface",
+    "appDisplayName": "dexcom-share",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#673ab7",
+    "requestedPermissions": [
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "dexcom-share"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0",
+    "@fitbit/sdk-cli": "^1.0.0"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
